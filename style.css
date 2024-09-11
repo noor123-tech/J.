@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+#navbar{
+
+
+display:flex;
+justify-content: space-between;
+}
+#leftportion button:hover{
+    background-color: blue;
+
+}
+#portion button:hover{
+background-color: red;
+}
+#table{
+    
+    width:100%;
+    height:100%;
+  border-collapse:collapse;
+}
+
+#table th, #table td {
+    border: 2px solid black;
+    height: 50px;
+    text-align: left;
+   width:20%;
+}
+
+#table td a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px; /* Add margin to the left and right of the anchor tags */
+}
+#submitBtn{
+  width:-100px;
+  
+  
+}
+#cancelbtn{
+    width:100px;
+ 
+}
+#butns button{
+    width:10px;
+    
+}
+#submitBtn:hover{
+ background-color: aqua;
+}
+#cancelbtn:hover{
+    background-color:red;
+}
+#form {
+    display: none;
+    justify-content: space-around; /* Distribute items evenly with space around them */
+ 
+     height:60px; 
+  
+}
+.form-group{
+    
+    width:20%;
+    border: none;
+}  
+.form-group input{
+    width:100%;
+    height: 70%;
+    outline:none;
+    border:none;
+   
+}
+#form button{
+    width:10%;
+    height: 100%;
+
+}
+.form-group p{
+    color: red;
+    margin:0;
+}
+
+
+   
+    
